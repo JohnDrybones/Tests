@@ -22,7 +22,4 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run Tests
-      run: python -m unittest discover -s . -p "*test*.py"
-
-    - name: Display Test Logs
-      run: cat test_*.log
+      run: pytest testleapyear.py
