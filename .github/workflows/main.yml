@@ -18,5 +18,8 @@ jobs:
       with:
         python-version: 3.9
 
+    - name: Install pytest
+      run: pip install pytest
+
     - name: Run Python Script
       run: python -m unittest testleapyear.py
