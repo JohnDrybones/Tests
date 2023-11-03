@@ -19,4 +19,4 @@ jobs:
         python-version: 3.9
 
     - name: Run Python Script
-      run: python testleapyear.py
+      run: python -m unittest testleapyear.py
