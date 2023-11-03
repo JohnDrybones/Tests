@@ -24,3 +24,6 @@ def test_not_leap_year_not_div_by_4(year):
 @pytest.mark.parametrize("year", [1700, 1800, 1900, 2100])
 def test_not_leap_year_div_by_100_not_div_by_400(year):
     assert isLeapYear(year) == False
+
+if __name__ == "__main__":
+    pytest.main()
