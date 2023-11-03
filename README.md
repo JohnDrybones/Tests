@@ -1,6 +1,6 @@
 # Leap Year Test
 
-Dette reopet inneholder et Python-program for å se etter skuddår.
+Dette repoet inneholder et Python-program for å se etter skuddår.
 
 ## Hvordan kjøre tester
 
